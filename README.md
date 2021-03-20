@@ -45,7 +45,7 @@ O Sonarcloud irá informar que não recomenda uma análise automática do reposi
 
 :rotating_light: Você precisará alterar algumas pequenas configurações para a executar o projeto:
 
-1. As configurações do seu `pom.xml` devem ser ajustadas para entender que o [WebGoat](https://owasp.org/www-project-webgoat/) possui vários módulos. Ajuste conforme o snippet de código abaixo, substituindo o valor em `<sonar.projectKey>` pela chave correta do seu projeto no Sonarcloud.
+1. As configurações do seu `pom.xml` devem ser ajustadas para entender que o [WebGoat](https://owasp.org/www-project-webgoat/) possui vários módulos. Ajuste conforme o snippet de código abaixo, substituindo o valor em `<sonar.projectKey>` pela chave correta do seu projeto no Sonarcloud e o valor em `<sonar.organization>` pelo seu usuário do GitHub.
 
 ```xml
 <!-- Sonar properties-->
