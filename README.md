@@ -108,7 +108,7 @@ jobs:
 3. Execute o workflow manualmente e aguarde os resultados aparecerem no Sonarcloud. 
    1. :question: O que mais te chamou atenção?
 
-### 2.1 GitHub Advanced Security
+### 2.2 GitHub Advanced Security
 
 1. Clique na aba `Security` e em seguida, no menu esquerdo, `Code scanning alerts`
 2. Na tela seguinte, no canto direto, clique em `Set up more code scanning tools`
@@ -163,7 +163,7 @@ jobs:
 5. Execute o workflow manualmente e aguarde os resultados aparecerem em `Security` > `Code scanning alerts` > `CodeQL`
    1. :question: Os resultados parecem com os do Sonarcloud?
 
-### 2.2 Anchore
+### 2.3 Anchore
 
 O [Anchore](https://anchore.com/) é uma ferramenta open source para análise de vulnerabilidades. Vamos configurá-lo para analisar a segurança do container do WebGoat.
 
