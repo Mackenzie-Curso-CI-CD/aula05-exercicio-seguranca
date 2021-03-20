@@ -119,6 +119,11 @@ jobs:
 name: "CodeQL"
 
 on:
+  push:
+    branches: [develop]
+  pull_request:
+    branches: [develop]
+    
   workflow_dispatch:
 
 jobs:
@@ -153,7 +158,6 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
-
 ```
 
 5. Execute o workflow manualmente e aguarde os resultados aparecerem em `Security` > `Code scanning alerts` > `CodeQL`
