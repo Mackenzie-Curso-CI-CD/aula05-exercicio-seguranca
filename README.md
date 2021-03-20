@@ -244,7 +244,7 @@ Configure o [GitGuardian](https://www.gitguardian.com/) e o [Snyk](https://snyk.
 
 :question: Qual tipo de análise essas ferramentas fazem?
 
-## 6. Extra
+### 5.1 Extra
 
 [ZAP Security testing](https://www.zaproxy.org/)
 
