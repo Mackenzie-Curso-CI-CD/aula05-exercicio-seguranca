@@ -16,7 +16,7 @@ Você deve ter um perfil/conta criado nas seguintes plataformas/serviços
 
 ### 1.2 WebGoat
 
-Faça um fork do [WebGoat](https://github.com/WebGoat/WebGoat) para sua conta pessoal. Não é necessário baixar o código na sua máquina pessoal. Vamos rodar tudo online 🎉
+Faça um fork do [repositório WebGoat](https://github.com/WebGoat/WebGoat) para sua conta pessoal. Não é necessário baixar o código na sua máquina pessoal. Vamos rodar tudo online 🎉
 
 ### 1.3 Configuração do repositório
 
