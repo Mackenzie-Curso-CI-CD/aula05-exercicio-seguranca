@@ -163,7 +163,7 @@ jobs:
 5. Execute o workflow manualmente e aguarde os resultados aparecerem em `Security` > `Code scanning alerts` > `CodeQL`
    1. :question: Os resultados parecem com os do Sonarcloud?
 
-### 2.1 Anchore
+### 2.2 Anchore
 
 O [Anchore](https://anchore.com/) é uma ferramenta open source para análise de vulnerabilidades. Vamos configurá-lo para analisar a segurança do container do WebGoat.
 
