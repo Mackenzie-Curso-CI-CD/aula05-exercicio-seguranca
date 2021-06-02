@@ -102,7 +102,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./mvnw verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+        run: ./mvnw verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -DskipTests
 ```
 
 3. Execute o workflow manualmente e aguarde os resultados aparecerem no Sonarcloud. 
@@ -154,7 +154,7 @@ jobs:
       
     - name: Build with Maven
       if: matrix.language == 'java'
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file pom.xml -DskipTests
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
